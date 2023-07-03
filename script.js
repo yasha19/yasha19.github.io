@@ -114,7 +114,7 @@ window.addEventListener("load", function() {
 
 // Credit to https://github.com/lukePeavey/quotable/tree/master for the random quote generator API.
 
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
 
     const button = document.querySelector("button");
     const quote = document.querySelector("blockquote p");
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateQuote();
 
-});
+});*/
 
 document.addEventListener("DOMContentLoaded", function() {
 
