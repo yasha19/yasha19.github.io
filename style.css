@@ -64,12 +64,12 @@ a:hover {
 
 }
 
-/*.tab-about {
+.tab-about {
     padding: 50px;
     color: white;
     background-color: black;
     position: relative;
-}*/
+}
 
 .tab h2 {
 
@@ -386,3 +386,48 @@ a:hover {
     color: white;
 
 }
+
+@media (max-width: 768px) {
+
+    .tab-about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .column {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .carousel-container {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  
+    .carousel-btn {
+      top: 40%;
+      font-size: 1rem;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  
+    .carousel-btn.left {
+      left: -1.75rem;
+    }
+  
+    .carousel-btn.right {
+      right: -1.75rem;
+    }
+  
+    .carousel-item {
+      height: 200px;
+    }
+  
+    .carousel-item img {
+      object-fit: contain;
+      background-color: black;
+    }
+}
+  
