@@ -321,13 +321,13 @@ ul {
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
-    padding: 2px 16px;
+    padding: 2px 2px;
 
 }
 
 .modal-header {
 
-    padding: 2px 16px;
+    padding: 2px 2px;
     background-color: wheat;
     color: black;
 
