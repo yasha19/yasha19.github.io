@@ -9,6 +9,34 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" href="Daniel Pell Music-logos_transparent.png">
     <title>Videos</title>
+    <style>
+
+        @media (max-width: 768px) {
+
+            .nav-li {
+                display: block;
+                text-align: center;
+                padding: 10px;
+            }
+
+            .tab {
+                margin: 20px;
+            }
+
+            .tab h2 {
+                text-align: center;
+            }
+
+            .videos {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+        }
+
+    </style>
 </head>
 
 <body>
@@ -19,15 +47,18 @@
                 <li class="nav-li"><a href="about.html">About</a></li>
                 <li class="nav-li"><a href="live-gear.html">Live Gear</a></li>
                 <li class="nav-li"><a href="videos.html">Videos</a></li>
-                <li class="nav-li"><a href="contact-information.html">Contact Information</a></li>
+                <li class="nav-li"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <video controls loop width="500" height="700" class="videos">
-        <source src="video1.mp4">
-        <source src="video1.mov">
-        <source src="video1.WebM">
-    </video>
+    <div class="tab">
+        <h2>Videos</h2>
+        <video controls loop width="500" height="700" class="videos">
+            <source src="video1.mp4">
+            <source src="video1.mov">
+            <source src="video1.WebM">
+        </video>
+    </div>
     <footer class="socials">
         <a href="https://instagram.com/dannypell_" target="_blank">
             <ion-icon name="logo-instagram"></ion-icon>
